@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Prata&family=Raleway:ital@1&family=Rampart+One&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra {
+  background: linear-gradient(to right, rgb(12, 12, 90), rgb(135, 134, 148));
+  padding: 20px;
+  box-sizing: border-box;
+  height: 160px;
+}
+.barra a {
+  font-size: 30px;
+  color: rgb(228, 213, 9);
+  font-family: "Prata", serif;
+  letter-spacing: 3px;
+}
+.barra a:hover {
+  transform: scale(1.2);
+  transition: 0.9s;
+}
+.barra .navbar-toggler {
+  color: rgb(255, 0, 0);
+  height: 20px;
+  width: 30px;
+}
+
+.jumbotron-fluid {
+  padding: 0;
+  margin: 0;
+}
+.jumbotron-fluid .container-fluid {
+  background-image: url(assets/img/brindis.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding: 0;
+}
+.jumbotron-fluid h1 {
+  color: rgb(250, 250, 250);
+  font-family: "Prata", serif;
+  letter-spacing: 2px;
+  background-color: rgba(63, 63, 66, 0.322);
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  padding-top: 25%;
+}/*# sourceMappingURL=style.css.map */
